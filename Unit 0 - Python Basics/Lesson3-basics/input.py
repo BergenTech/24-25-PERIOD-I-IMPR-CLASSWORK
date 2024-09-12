@@ -1,0 +1,10 @@
+# name = input("Enter Name:")
+# print(f"Hey {name}!")
+# age = input("Enter age:")
+# age = int(age)
+age = int(input("Enter age:"))
+print(f"You are {age} years old!")
+print(type(age))
+
+gpa = float(input("Enter your gpa!"))
+print(type(gpa))
