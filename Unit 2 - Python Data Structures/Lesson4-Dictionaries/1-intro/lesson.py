@@ -34,3 +34,22 @@ print(values)
 items = sample_dict.items() # Returns dict_items
 print(items) #dict_items([('a', 1), ('b', 2), ('c', 3)])
 
+# get() method safe access
+value = sample_dict.get("a","Not Exist!")
+print(value)
+
+# update() - Merge dictionaries
+sample_dict2 = {"d":4, "e":5}
+sample_dict.update(sample_dict2)
+print(sample_dict)
+
+# pop(key, default value) - remove key-val and returns val
+value_to_remove = sample_dict.pop("e")
+print(sample_dict)
+print(value_to_remove)
+
+# Basic Comprehension
+squares = [x**2 for x in range(5)]
+print(squares)
+squares = {x:x**2 for x in range(5)}
+print(squares)
