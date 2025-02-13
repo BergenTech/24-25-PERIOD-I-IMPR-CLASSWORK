@@ -79,10 +79,15 @@ del my_dict2['name']  # Removes the 'name' key-value pair
 # pop(key[, default])
 # Remove specified key and return the corresponding value
 # If key is not found, return default if given, otherwise raise KeyError
+city = my_dict1.pop("city") # Returns "New York", removes key-value pair
+print(my_dict1) # 'city': 'New York' will be removed from the dictionary
 
 # popitem()
 # Remove and return the last key-value pair as a tuple
 # Raises KeyError if dictionary is empty (in Python 3.7+, removes a random item)
+last_item = my_dict1.popitem() #
+print(last_item) 
+
 
 
 # ---------------------------------------------------------------
