@@ -1,26 +1,49 @@
-# 1: Union of Sets
-# The union of two sets combines all unique elements from both sets.
-print("Exercise 1: Union of Sets")
-A = {1, 2, 3, 4}
-B = {3, 4, 5, 6}
+# Mathematical Set Operations Reference
+# ------------------------------------
+# A ∪ B (Union):         A.union(B)        or  A | B
+# A ∩ B (Intersection):  A.intersection(B)  or  A & B
+# A - B (Difference):    A.difference(B)    or  A - B
+# A △ B (Symmetric Diff): A.symmetric_difference(B) or A ^ B
 
-print("#"*30)
-# 2: Intersection of Sets
-# The intersection of two sets includes only the elements that are present in both sets.
-print("Exercise 2: Intersection of Sets")
-A = {10, 20, 30, 40}
-B = {30, 40, 50, 60}
+# Problem: A school survey asked students about their favorite sports
+# sets for students who like different sports
+basketball_fans = {"Emma", "Noah", "Olivia", "Liam", "Ava", "Mason", "Sophia", "Jacob"}
+soccer_fans = {"Noah", "Olivia", "Ethan", "Charlotte", "William", "Sophia", "James", "Amelia"}
 
-print("#"*30)
-# 3: Difference of Sets
-# The difference of two sets returns elements that are in the first set but not in the second.
-print("Exercise 3: Difference of Sets")
-A = {1, 2, 3, 4, 5}
-B = {3, 4, 5, 6, 7}
+# Display the original sets
+print("Students who like basketball:", basketball_fans)
+print("Students who like soccer:", soccer_fans)
+print()
 
-print("#"*30)
-# 4: Symmetric Difference
-# The symmetric difference returns elements that are in either set, but not in both.
-print("Exercise 4: Symmetric Difference")
-A = {"apple", "banana", "cherry"}
-B = {"banana", "cherry", "date", "fig"}
+
+# Operation 1: Find students who like both basketball AND soccer (intersection)
+# Write your code below:
+# basketball_and_soccer =
+
+print("INTERSECTION (∩)")
+print("Students who like both basketball AND soccer: [Your answer here]")
+print()
+
+# Operation 2: Find students who like basketball OR soccer (union)
+# Write your code below:
+# basketball_or_soccer =
+
+print("UNION (∪)")
+print("Students who like either basketball OR soccer (or both): [Your answer here]")
+print()
+
+# Operation 3: Find students who like basketball but NOT soccer (difference)
+# Write your code below:
+# basketball_not_soccer =
+
+print("DIFFERENCE (-)")
+print("Students who like basketball but NOT soccer: [Your answer here]")
+print()
+
+# Operation 4: Find students who like exactly ONE of basketball or soccer (symmetric difference)
+# Write your code below:
+# exactly_one =
+
+print("SYMMETRIC DIFFERENCE (△)")
+print("Students who like exactly ONE of basketball or soccer (not both): [Your answer here]")
+print()
