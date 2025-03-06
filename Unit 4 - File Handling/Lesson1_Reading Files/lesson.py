@@ -38,8 +38,15 @@ def count_lines(filename):
 #5 Function to search for a keyword in a file
 def search_keyword(filename, keyword):
     """Finds and prints lines that contain a specific keyword."""
-    pass
-
+    matching_lines = []
+    with open(filename, 'r') as file:
+        # for line in file:
+        #     if keyword.lower() in line.lower():
+        #         print(line.strip())
+        for line_number, line in enumerate(file, start=1):
+            if keyword.lower() in line.lower():
+                matching_lines.append((line_number,line.strip()))
+        return matching_lines
 
 
 # Usage
@@ -58,4 +65,14 @@ if __name__ == "__main__":
     # print(read_file_as_list2(filename)) 
     # for line in read_file_as_list2(filename):
     #     print(line)
-    # print(read_file_as_list2(filename)[0]) 
+    # print(read_file_as_list2(filename)[0])
+    
+    #4 count lines in a file
+    # print(count_lines(filename))
+    
+    #5 search for a keyword in a file
+    # search_keyword(filename, "javascript")
+    # results = search_keyword(filename, "Python")
+    results = search_keyword(filename, "JavaScript")
+    for line_number, text in results:
+        print(f"Line {line_number}: {text} \n")
