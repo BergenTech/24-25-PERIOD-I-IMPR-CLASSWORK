@@ -9,4 +9,6 @@ with open(filename, 'r') as file:
     print(file.tell()) # find out where the cursor is
     file.seek(0)
     print(file.tell())
+    print(file.readline()) # reads one line at a time
+    print(file.readline()) # reads next line 
     
