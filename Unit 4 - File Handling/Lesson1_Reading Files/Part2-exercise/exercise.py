@@ -16,6 +16,8 @@ def extract_sorted_words(path: str, delimiter: str = ':') -> list:
     try:
         with open(path, 'r') as file:
             # Process each line with set comprehension to extract unique words
+            #partition(delimiter) splits the string at the first occurrence of delimiter, returning a tuple: 
+            # (before, delimiter, after).
             words = {line.partition(delimiter)[0].strip() for line in file}
         # Return a new list with the words sorted in ascending order.
         return sorted(words)
