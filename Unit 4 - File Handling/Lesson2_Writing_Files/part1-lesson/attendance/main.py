@@ -1,3 +1,7 @@
+# import attendance
+# from attendance import *
+from attendance import record_attendance, display_attendance
+
 def attendance_tracker():
     print("Class Attendance Tracker")
     
@@ -18,6 +22,7 @@ def attendance_tracker():
     record_attendance(students[4], False)  # Absent
     
     print("Attendance recorded in attendance.txt")
+    display_attendance()
 
 if __name__ == '__main__':
     attendance_tracker()
