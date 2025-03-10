@@ -1,4 +1,3 @@
-Brisk Logo Menu
 def attendance_tracker():
     print("Class Attendance Tracker")
     
