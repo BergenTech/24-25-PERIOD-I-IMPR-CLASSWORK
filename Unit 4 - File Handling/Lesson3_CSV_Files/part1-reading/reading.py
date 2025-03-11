@@ -18,7 +18,7 @@ with open(path, 'r') as file:
     data = list(csv_reader)
     # print(data)
       
-
+emails = []
 with open(path, 'r') as file:
     #create a DictReader object
     csv_to_dict = csv.DictReader(file)
@@ -34,4 +34,6 @@ with open(path, 'r') as file:
         Email = row['Email']
         
         #print name and email of each student
-        print(f"{Name} - {Email}")
+        # print(f"{Name} - {Email}")
+        emails.append((Name, Email))
+print(emails)
