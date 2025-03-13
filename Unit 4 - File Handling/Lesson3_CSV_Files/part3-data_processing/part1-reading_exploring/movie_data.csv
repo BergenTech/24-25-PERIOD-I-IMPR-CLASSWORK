@@ -1,0 +1,25 @@
+Movie_ID,Title,Release_Year,Genre,Director,Runtime,Rating,Box_Office,Studio
+M001,the avengers,2012,Action/Adventure/Sci-Fi,Joss Whedon,143 mins,8.0,$623.4M,Marvel Studios
+M002,TITANIC,1997,Drama,Romance,James Cameron,195,7.8,659.3,Paramount Pictures
+M003,The Dark Knight,2008,Action/Crime/Drama,Christopher Nolan,152 minutes,9,$534.9 million,Warner Bros.
+M004,avatar,2009,Action;Adventure;Fantasy,James Cameron,162,7.9,$2,847.4M,20th Century Fox
+M005,Pulp Fiction,1994,Crime/Drama,Quentin Tarantino,154 min,8.9,$107.9M,Miramax
+M006,INCEPTION,2010,Action, Sci-Fi, Thriller,Christopher Nolan,148,8.8,$828.3 million,Warner Bros.
+M007,The Lion King,1994,Animation/Adventure/Drama,Roger Allers, Rob Minkoff,88 mins,8.5,$968.5M,Disney
+M008,star wars: the force awakens,2015,Action/Adventure/Fantasy,J.J. Abrams,138,7.8,$2,068M,Lucasfilm
+M009,Jurassic Park,1993,Adventure/Sci-Fi/Thriller,Steven Spielberg,127 minutes,8.1,$1,046.7 million,Universal Pictures
+M010,forrest gump,1994,Drama,Romance,Robert Zemeckis,142,8.8,$678.2M,Paramount Pictures
+M011,The Matrix,1999,Action/Sci-Fi,Lana Wachowski, Lilly Wachowski,136 min,8.7,$465.3M,Warner Bros.
+M012,GLADIATOR,2000,Action;Adventure;Drama,Ridley Scott,155 minutes,8.5,$457.6 million,DreamWorks
+M001,THE AVENGERS,2012,Action, Adventure, Sci-Fi,Joss Whedon,143,8,$623M,Marvel Studios
+M013,The Godfather,1972,Crime/Drama,Francis Ford Coppola,175 mins,9.2,$245.1M,Paramount Pictures
+M014,Finding Nemo,2003,Animation/Adventure/Comedy,Andrew Stanton,100 min,8.1,$871.0M,Pixar
+M015,interstellar,2014,Adventure,Drama,Sci-Fi,Christopher Nolan,169,8.6,$677.5 million,Warner Bros.
+M016,The Silence of the Lambs,1991,Crime/Drama/Thriller,Jonathan Demme,118 minutes,8.6,$272.2M,Orion Pictures
+M017,E.T. the Extra-Terrestrial,1982,Adventure/Family/Sci-Fi,Steven Spielberg,115 mins,7.8,$792.9M,Universal Pictures
+M018,FROZEN,2013,Animation;Adventure;Comedy,Chris Buck, Jennifer Lee,102,7.4,$1,280.8 million,Disney
+M019,Toy Story,1995,Animation/Adventure/Comedy,John Lasseter,81 min,8.3,$394.4M,Pixar
+M020,Schindler's List,1993,Biography,Drama,History,Steven Spielberg,195 minutes,8.9,$322.1M,Universal Pictures
+M021,The Shawshank Redemption,1994,,Frank Darabont,142,,,"Columbia Pictures"
+M022,The Lord of the Rings,2001,,Peter Jackson,178,,,New Line Cinema
+M023,Fight Club,1999,,David Fincher,139,,,20th Century Fox
