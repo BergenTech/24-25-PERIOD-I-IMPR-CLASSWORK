@@ -16,14 +16,10 @@ def print_movie_info(movies, num_movies=5):
 
 def main():
     print("=== Part 1: Reading and Exploring Data ===")
-    
     # Step 1: Read the movie_data.csv file
-    # Your code will go here
     movies = read_csv_file("movie_data.csv")
     print(f"Total movies in dataset: {len(movies)}")
-    
     # Step 2: Print the total number of movies
-    # Your code will go here
     print_movie_info(movies,200)
 
 if __name__ == "__main__":
