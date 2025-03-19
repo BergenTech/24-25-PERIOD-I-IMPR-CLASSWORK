@@ -41,11 +41,11 @@ def main():
     movies = read_csv_file("movie_data.csv")
     print(f"Total movies in dataset: {len(movies)}")
     # Step 2: Print the total number of movies
-    print_movie_info(movies) # will print first 5 as default
+    print_movie_info(movies,7) # will print first 5 as default
     # print_movie_info(movies, 1) # will print only 1 movie
     # print_movie_info(movies, 200) # will for the length of the list of dict
-    # Step 3 - Display the first 3 cleaned movies
+    # Step 3 - Display the first 5 cleaned movies
     cleaned_movies = clean_movie_data(movies)
-    print_movie_info(cleaned_movies,3)
+    print_movie_info(cleaned_movies,7)
 if __name__ == "__main__":
     main()
