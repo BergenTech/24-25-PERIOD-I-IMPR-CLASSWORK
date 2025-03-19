@@ -1,0 +1,15 @@
+{
+    "name": "Florida",
+    "abbreviation": "FL",
+    "area_codes": [
+        "239",
+        "305",
+        "321",
+        "352"
+    ],
+    "info": {
+        "capital": "Tallahassee",
+        "population": 21538187,
+        "is_sunny": true
+    }
+}
