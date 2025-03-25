@@ -1,3 +1,4 @@
+from json_csv import json_to_csv_converter
 def main():
     while True:
         print("\n=== File Format Converter ===")
@@ -9,7 +10,7 @@ def main():
         
         if choice == "1":
             filename = input("Enter the JSON filename: ")
-            #json_to_csv_converter(filename)
+            json_to_csv_converter(filename)
         elif choice == "2":
             filename = input("Enter the CSV filename: ")
             #csv_to_json_converter(filename)
