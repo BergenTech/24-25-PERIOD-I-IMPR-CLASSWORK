@@ -40,19 +40,25 @@ print(json.dumps(json_data, indent=2))
 print("\n\n=== Accessing Data from the Response ===")
 
 # Store the response data for easy access
-
+user = json_data
 # Display all available top-level keys
-
+print(f"Top-Level Keys: {list(user.keys())}")
 # 1. Basic field access - direct dictionary indexing
-
+print(f"User Name: {user['name']}")
+print(f"Email: {user['email']}")
 
 # 2. Nested field access - dealing with objects within objects
-
+print(f"City: {user['address']['city']}")
 
 # 3. Deep nested access - multiple levels of nesting
-
+print(f"Lat: {user['address']['geo']['lat']}")
 # 4. Safe access with .get() to handle missing keys
-
+address = user.get('address', "Not Found!")
+print(address)
+country = address.get("country", "No Country Found!")
+print(country)
 
 # 5. Checking if keys exist
+print(f" Has 'phone': {'phone' in user}") # True
+print(f" Has 'age: {'age' in user}") # False
 
