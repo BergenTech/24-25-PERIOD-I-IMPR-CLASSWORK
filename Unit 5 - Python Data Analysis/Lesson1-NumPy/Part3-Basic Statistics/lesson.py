@@ -1,4 +1,5 @@
 # Basic Statistics
+import numpy as np
 data = np.array([10, 15, 15, 18, 20, 35, 80])
 # Central tendency
 print("Mean:", np.mean(data))             # 27.57
